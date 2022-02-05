@@ -5,16 +5,17 @@
     <meta name="description" content="Clon Google uwu"/>
     <title>Clon Google</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/CSS/style.css">
 </head>
 
 <body>
+    <div class="container">
     <header>
         <p>
-            <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">GMAIL</a>
-            <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">IMÁGENES</a>
+            <a class="headerP" href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">Gmail</a>
+            <a class="headerP" href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">Imágenes</a>
             <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">
-                <svg class="gb_0e" focusable="false" viewBox="0 0 24 24">
+                <svg class="imagen1" focusable="false" viewBox="0 0 24 24">
                     <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2
                      -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,
                      -2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,
@@ -23,33 +24,40 @@
                     </path>
                 </svg>
             </a>
-            <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU"><img src="IMAGES/unnamed.png" alt="foto del correo"></a>
+            <a class="imgSesion" href="https://www.youtube.com/watch?v=o-YBDTqX_ZU"><img src="IMAGES/unnamed.png" alt="foto del correo"></a>
         <p>
     </header>
 
     <main>
-        <img src="IMAGES/574c3e6a.png" alt="LOGO GOOGLE"/>
-        <div>
+        <img class="logo"src="IMAGES/googlelogo_light_color_272x92dp.png" alt="LOGO GOOGLE"/>
+        <div class="buscador">
             <form action="">
                 <label for="busqueda">
-                    <input type="text" id="nombre" placeholder=""/>
+                    <input type="text" id="busqueda" placeholder="" autocomplete="off"/>
                 </label>
             </form>
+        </div>    
+        <div class="bajoB">
+            <input value="Buscar con Google" type="submit"/>
+            <input value="Me siento con suerte" type="submit"/>
+        </div>
+        <div>
+            <p>Ofrecido por Google en: <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">Español (Latinoamerica)</a></p>
         </div>
     </main>
-
+    </div>
     <footer>
         <h4>Chile</h4>
-        <p>
-            <nav>
-                <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">Sobre Google</a>
-                <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">Publicidad</a>
-                <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">Negocios</a>
-                <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">Cómo funciona la busqueda</a>
-                <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">Privacidad</a>
-                <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">Condiciones</a>
-                <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">Preferencias</a>
-            </nav>
-        </p>
+        <div class="navs">
+            <ul class="lista-inf">
+                <ol><a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">Sobre Google</a></ol>
+                <ol><a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">Publicidad</a></ol>
+                <ol><a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">Negocios</a></ol>
+                <ol><a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">Cómo funciona la busqueda</a></ol>
+                <ol><a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">Privacidad</a></ol>
+                <ol><a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">Condiciones</a></ol>
+                <ol><a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">Preferencias</a></ol>
+            </ul>
+        </div>
     </footer>
 </body>
